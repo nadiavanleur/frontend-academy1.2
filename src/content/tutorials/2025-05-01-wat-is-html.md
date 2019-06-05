@@ -47,7 +47,7 @@ nextTutorial: /tutorials/2019-05-01-ytejetyjytjyj/
 prevTutorial: /tutorials/2019-04-30-this-is-a-title/
 ---
 
-<video-pagepart file="undefined" embedcode="dQw4w9WgXcQ"  platform="youtube" title="HTML - data, structuur, en verder niks" caption="undefined"></video-pagepart>
+<video-embed-pagepart file="undefined" embedcode="dQw4w9WgXcQ"  platform="youtube" title="HTML - data, structuur, en verder niks" caption="undefined"></video-embed-pagepart>
 
 <text-pagepart title="undefined" text="HTML is de afkorting voor **HyperText Markup Language**. Mocht je ‘hypertext’ heel fancy of juist intimiderend vinden klinken, heb ik slecht of juist goed nieuws voor je; hyperteksten zijn teksten die met elkaar verbonden zijn door hyperlinks, oftewel linkjes zoals je die al duizenden keren gezien hebt. Nu is dat de gewoonste zaak van de wereld, maar in een tijd waar je elke keer terug moest naar een index als je andere informatie wilde opvragen waren zulke koppelingen in een tekst revolutionair.{{newline}}{{newline}}Tot zover het hypertext-deel, dan hebben we nog ‘markup language’ over. Direct vertaald zou dat ‘opmaaktaal’ worden, en daar wordt het een beetje verwarrend. Als je slechts één ding over HTML onthoudt, laat het dan dit zijn; **je gebruikt HTML niet om te bepalen hoe data eruitziet, maar om te beschrijven wat voor data het ís.**{{newline}}{{newline}}Stel je een boek voor, zonder hoofdstukken, koppen, subkoppen en paragrafen. Ook geen paginanummers, gewoon een onophoudelijke lap tekst van 300 pagina’s lang. Probeer nu maar eens iets snel op te zoeken, of te begrijpen welke teksten bij elkaar horen of waar een hoofdstuk eindigt. Gaat je niet lukken."></text-pagepart>
 
