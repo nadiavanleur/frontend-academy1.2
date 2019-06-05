@@ -1,0 +1,28 @@
+.image-pp {
+  padding-bottom: $spacing-md;
+}
+
+.image-pp__main-element {
+  width: grid-column-width(12);
+  margin: 0 auto;
+  padding-left: $spacing-lg;
+
+  @media screen and (min-width: $screen-md) {
+    width: grid-column-width(10);
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: grid-column-width(8);
+  }
+}
+
+.image-pp__image {
+  border: $border-base;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border: $border-base;
+  box-shadow: -$spacing-lg $spacing-md $color-black;
+}

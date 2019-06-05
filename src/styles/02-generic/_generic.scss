@@ -1,0 +1,23 @@
+html {
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  text-decoration-skip-ink: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+
+  & > li {
+    &::before {
+      content: ">";
+      margin-right: $spacing-sm;
+    }
+  }
+}

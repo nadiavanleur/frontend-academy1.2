@@ -1,0 +1,74 @@
+.glossary {
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-xl;
+  padding: 0 $spacing-md;
+}
+
+.glossary__group {
+}
+
+.glossary__group-title {
+  font-size: $font-size-lg;
+  margin-top: $spacing-lg;
+  margin-bottom: $spacing-md;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 0.25rem;
+    width: 3rem;
+    background: $color-yellow;
+  }
+}
+
+.glossary__group-link {
+  text-decoration: none;
+}
+
+.glossary__list {
+  @include grid-container;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.glossary__item {
+  width: calc(100% - #{$spacing-md});
+  margin-bottom: $spacing-lg;
+  margin-left: 0;
+  border: 1px solid $color-gray-medium;
+  background: $color-white;
+  padding: $spacing-md $spacing-md $spacing-lg;
+  box-shadow: $spacing-md $spacing-md 0 $color-red;
+
+  @media screen and (min-width: $screen-md) {
+    float: left;
+    width: calc(50% - #{$spacing-md + $spacing-sm});
+
+    &:nth-of-type(2n) {
+      margin-left: $spacing-lg;
+    }
+  }
+
+  &:target {
+    @include active-circle;
+  }
+
+  &::before {
+    content: none;
+    display: none;
+  }
+}
+
+.glossary__description {
+  margin-bottom: 0;
+}
+
+.glossary__link {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

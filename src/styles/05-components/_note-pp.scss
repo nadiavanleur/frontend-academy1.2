@@ -1,0 +1,33 @@
+.note-pp {
+  border: $border-base;
+  border-color: $color-red;
+  padding: $spacing-md $spacing-lg;
+
+  @include grid-column(12);
+  width: grid-column-width(12);
+  max-width: grid-column-width(12);
+
+  @media screen and (min-width: $screen-md) {
+    @include grid-column(10);
+    min-width: grid-column-width(10);
+    width: auto;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    @include grid-column(8);
+    min-width: grid-column-width(8);
+    width: auto;
+  }
+}
+
+.note-pp__title {
+  font-size: $font-size-md;
+  hyphens: auto;
+  margin: 0;
+}
+
+.note-pp__text {
+  font-size: $font-size-sm;
+  display: block;
+  margin: 0;
+}

@@ -1,0 +1,81 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "Portfolio 9.0.0",
+  "version": "0.1.0",
+  "author": "Nadia van Leur <nadiavanleur@gmail.com>",
+  "dependencies": {
+    "autoprefixer": "^9.5.0",
+    "browserslist": "^3.1.2",
+    "gatsby": "^2.3.5",
+    "gatsby-image": "^2.0.37",
+    "gatsby-plugin-catch-links": "^2.0.13",
+    "gatsby-plugin-manifest": "^2.0.26",
+    "gatsby-plugin-netlify-cms": "^3.0.17",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.2",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.33",
+    "gatsby-plugin-svg-sprite": "^2.0.1",
+    "gatsby-remark-better-embed-video": "^2.4.0",
+    "gatsby-remark-component": "^1.1.3",
+    "gatsby-remark-copy-images": "^0.2.1",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-prismjs": "^3.2.9",
+    "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "js-cookie": "^2.2.0",
+    "neat": "^1.2.2",
+    "netlify-cms": "^2.9.1",
+    "netlify-cms-widget-inline-select": "^1.3.1",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^6.1.2",
+    "postcss-html": "^0.36.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-sass": "^0.3.5",
+    "postcss-scss": "^2.0.0",
+    "postcss-selector-parser": "^6.0.2",
+    "prismjs": "^1.16.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-cookie": "^4.0.0",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-highlight": "^0.12.0",
+    "react-syntax-highlighter": "^10.2.1",
+    "rehype-react": "^3.1.0",
+    "sass-mq": "^5.0.0",
+    "showdown": "^1.9.0",
+    "supple": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "svg-sprite-loader": "^4.1.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

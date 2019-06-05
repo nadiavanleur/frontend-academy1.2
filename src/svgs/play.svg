@@ -1,0 +1,7 @@
+<svg width="30" height="38" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M.463.693l.77 37 28.5-18.5z"
+          fill={color}
+          fill-rule="evenodd"
+        />
+      </svg>

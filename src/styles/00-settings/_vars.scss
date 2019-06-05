@@ -1,0 +1,116 @@
+/*  =========================================================================
+    settings.vars
+    Global variables, config switches.
+    Used in conjunction with supple css.
+    ========================================================================= */
+
+/*  =========================================================================
+    Overrides
+    Any variables you find set in supple that you do not wish to keep, simply
+    redefine here. This means that if supple sets your`$supple-font-size`
+    at 16px and you wish it to be 18px, simplyredeclare that variable
+    in this section.
+    ========================================================================= */
+
+/*  Typography
+    ========================================================================= */
+
+$supple-font-size: 16px;
+$supple-line-height: 24px;
+
+/*  =========================================================================
+    Custom
+    Place any of your own variables that sit on top of supple here.
+    Please use the `!default` flag because variables defined here can be
+    overwritten by another theme
+    ========================================================================= */
+
+/*  Typography
+    Base typographic settings
+    ========================================================================= */
+
+$font-family-base: "Open Sans", sans-serif !default;
+$font-family-heading: "Open Sans", sans-serif, $font-family-base !default;
+
+/*  Colors
+    ========================================================================= */
+
+/**
+ * Colors
+ */
+$color-blue: #64c2cb !default;
+$color-red: #eb004e !default;
+// $color-pink: #ec228c !default;
+$color-pink: #e1147e !default;
+// $color-pink: #a90f5e !default;
+$color-yellow: #ffd668 !default;
+$color-green: #68ff68 !default;
+
+/**
+ * Status colors
+ */
+$color-error: $color-red !default;
+$color-success: $color-green !default;
+$color-warning: $color-yellow !default;
+$color-focus-ring: $color-blue !default;
+
+/**
+ * Grayscale
+ */
+$color-white: #ffffff !default;
+$color-gray-light: #eee !default;
+$color-gray-medium: #d8d8d8 !default;
+$color-gray-dark: #5e5e5e !default;
+$color-black: #000000 !default;
+
+/**
+ * Brand colors
+ */
+$color-brand-primary: $color-blue !default;
+
+/*  Animations
+    Global to keep animations consistent
+    ========================================================================= */
+
+$base-animation-duration: 150ms !default;
+$base-animation-timing: cubic-bezier(
+  0.55,
+  0,
+  0.1,
+  1
+) !default; // Google swift bezier
+
+/*  Responsive
+    Used in conjunction with Sass MQ: https://sass-mq.github.io/sass-mq/
+    ========================================================================= */
+
+$mq-base-font-size: $supple-font-size;
+
+/**
+ * Name your breakpoints in a way that creates a ubiquitous language
+ * across team members. It will improve communication between
+ * stakeholders, designers, developers, and testers.
+ */
+$mq-breakpoints: (
+  sm: 30em,
+  md: 40,
+  lg: 60em,
+  xl: 80em,
+);
+
+/**
+ * If you want to display the currently active breakpoint in the top
+ * right corner of your site during development, add the breakpoints
+ * to this list, ordered by width, e.g. (mobile, tablet, desktop).
+ */
+$mq-show-breakpoints: ();
+
+/*  Selectors
+    Variables for common selector types like: :hover, :active, etc.
+    ========================================================================= */
+
+$all-hovers: "&:hover, &:focus" !default;
+
+$border-base: 2px solid $color-black;
+$border-small: 1px solid $color-black;
+$border-radius-base: 8px;

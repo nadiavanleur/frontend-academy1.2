@@ -1,0 +1,29 @@
+.nav__wrapper {
+}
+
+.nav {
+}
+
+.nav__item {
+  display: block;
+  padding: 0;
+
+  &::before {
+    content: none;
+    display: none;
+  }
+}
+
+.nav__link {
+  line-height: 1.6;
+  padding: $spacing-sm $spacing-md;
+  display: block;
+  font-size: $font-size-sm;
+  color: $color-black;
+  text-transform: lowercase;
+  hyphens: auto;
+
+  &.active {
+    color: $color-red;
+  }
+}

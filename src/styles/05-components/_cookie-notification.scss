@@ -1,0 +1,49 @@
+.cookie-notification {
+  position: fixed;
+  bottom: $spacing-md;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: $spacing-md $spacing-md $spacing-lg;
+  background: $color-white;
+  border: $border-base;
+  width: calc(100% - #{$spacing-lg});
+
+  @media screen and (min-width: $screen-lg) {
+    width: 100%;
+  }
+
+  &.hide {
+    display: none;
+  }
+}
+
+.cookie-notification__title,
+.cookie-notification__text {
+  @include grid-column(12);
+
+  @media screen and (min-width: $screen-md) {
+    @include grid-column(9);
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    @include grid-column(10);
+  }
+}
+
+.cookie-notification__button {
+  @include grid-column(3);
+  margin-top: $spacing-md;
+
+  @media screen and (min-width: $screen-md) {
+    @include grid-column(2);
+    position: absolute;
+    right: $spacing-lg;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    @include grid-column(2);
+  }
+}

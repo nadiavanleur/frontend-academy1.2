@@ -1,0 +1,12 @@
+.wrapper-inner {
+  @include grid-container;
+
+  margin: auto;
+  max-width: $max-width;
+
+  @media screen and (min-width: $screen-sm) {
+  }
+
+  @media screen and (min-width: $screen-lg) {
+  }
+}

@@ -1,0 +1,32 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  font-family: $font-family-base;
+
+  &--post {
+    margin-top: $spacing-sm;
+  }
+}
+
+.page__main {
+  flex: 1;
+}
+
+.page__footer {
+  margin-top: auto;
+}
+
+.page__title {
+  font-size: $font-size-xl;
+  margin-top: $spacing-sm;
+  margin-bottom: $spacing-lg;
+  color: $color-white;
+  background: $color-black;
+  display: inline-table;
+  width: auto;
+  padding: 0 $spacing-lg;
+  hyphens: auto;
+  text-transform: lowercase;
+}

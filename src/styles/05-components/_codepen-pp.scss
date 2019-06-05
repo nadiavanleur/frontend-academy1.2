@@ -1,0 +1,19 @@
+.codepen-pp {
+}
+
+.codepen-pp__container {
+  @include grid-column(12);
+}
+
+.codepen-pp__iframe {
+  float: left;
+  width: 100%;
+  min-height: 25rem;
+  box-sizing: border-box;
+  border: $border-base;
+  border-color: $color-red;
+}
+
+.codepen-pp__caption {
+  margin-top: $spacing-lg;
+}

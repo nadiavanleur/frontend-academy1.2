@@ -1,0 +1,27 @@
+.btn {
+  min-width: grid-column-width(1);
+  display: block;
+  padding: $spacing-sm;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  text-transform: lowercase;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-md;
+  background: $color-white;
+  color: $color-pink;
+  border: $border-base;
+  border-color: $color-pink;
+
+  &:hover,
+  &:focus {
+    background: $color-pink;
+    color: $color-white;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    font-size: $font-size-lg;
+  }
+}

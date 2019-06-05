@@ -1,0 +1,107 @@
+```
+pageparts:
+  videoEmbed
+    title - string
+    embedcode - string!
+    platform - string! (selecteren in cms? youtube/vimeo)
+    caption - string/text/markdown
+
+  videoFile
+    title - string
+    video - file!
+    caption - string/text/markdown
+
+  image
+    title - string
+    image - file!
+    alt - string!
+    caption - string/text/markdown
+
+  text
+    title - string
+    text - text/markdown!
+
+  note
+    title - string
+    text - text/markdown!
+
+  code
+    title - string
+    language - string!
+    code - text/markdown!
+    caption - string/text/markdown
+    text - text/markdown
+
+  codeExample
+    title - string
+    userId - string!
+    embedCode - string!
+    platform - string! (selecteren in cms? codepen/jsfiddle)
+    languages - array, string! (meerdere kiezen in cms)
+    caption - string/text/markdown
+
+
+pages and components:
+  home
+    image
+      image
+      alt - string
+    button1
+      label - string
+      url - string
+    button2
+      label
+      url
+    button3
+      label
+      url
+
+  over-ons
+    title - string
+    content
+      pageparts
+
+  begrippenlijst
+    title - string
+    definitions: [
+      {
+        label - string
+        description - text/markdown
+      }, ...
+    ] - array
+
+  tutorials
+    title - string
+
+  tutorialDefault (default content)
+    knowLabel - string
+    learnLabel - string
+    conclusionLabel - string  
+
+  tutorial
+    title - string!
+    description - text/markdown!
+    languages - array, string! (kiezen in cms)
+    know - text/markdown
+    learn - text/markdown
+    image - file
+    content
+      pageparts
+    conclusion - text/markdown!
+    prevTutorial - string
+    nextTutorial - string
+
+  404
+    title - string
+    content
+      pageparts
+
+  nav
+    navItems: [
+      {
+        label - string
+        url - string
+      }, ...
+    ] - array
+
+```

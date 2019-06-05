@@ -1,0 +1,42 @@
+.hero {
+  height: 100%;
+  text-align: center;
+}
+
+.hero__container {
+  height: 100%;
+  padding-top: $spacing-lg;
+
+  @media screen and (min-width: $screen-sm) {
+    display: block;
+    padding-top: $spacing-lg;
+  }
+}
+
+.hero__image {
+  @include grid-column(12);
+  float: none;
+  margin: 0 auto;
+
+  & > picture {
+    & > img {
+      object-fit: contain !important;
+    }
+  }
+}
+
+.hero__buttons {
+  @include grid-container;
+
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-xl;
+}
+
+.hero__button {
+  @include grid-column(12);
+  margin-bottom: $spacing-sm;
+
+  @media screen and (min-width: $screen-sm) {
+    @include grid-column(4);
+  }
+}

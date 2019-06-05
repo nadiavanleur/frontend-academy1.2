@@ -1,0 +1,27 @@
+@mixin active-circle {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -$spacing-md;
+    left: -$spacing-md;
+    background: $color-blue;
+    border-radius: 50%;
+    z-index: -1;
+    height: 3rem;
+    width: 3rem;
+
+    @media screen and (min-width: $screen-md) {
+      height: 6rem;
+      width: 6rem;
+      left: -$spacing-lg;
+    }
+
+    @media screen and (min-width: $screen-lg) {
+      height: 9rem;
+      width: 9rem;
+      left: -$spacing-xl;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.progress {
+  appearance: none;
+
+  width: 100%;
+  background: $color-gray-light;
+  border: $border-small;
+  border-color: $color-gray-dark;
+  border-radius: $border-radius-base;
+  height: $spacing-sm;
+
+  @media screen and (min-width: $screen-sm) {
+    height: $spacing-md * 0.75;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    height: $spacing-md;
+  }
+}
+
+.progress::-moz-progress-bar {
+  display: block;
+  background: $color-yellow;
+  border-radius: $border-radius-base;
+}

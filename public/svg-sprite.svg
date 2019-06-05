@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <symbol id="arrow-left" viewBox="0 0 35 29">
+      <path fill="currentColor" d="M0 14.5L27 0v29z"/>
+      <circle cx="33" cy="27" r="2" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="arrow-right" viewBox="0 0 35 29">
+      <path fill="currentColor" d="M35 14.5L8 0v29z"/>
+      <circle transform="matrix(-1 0 0 1 4 0)" cx="2" cy="27" r="2" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="play" viewBox="0 0 30 38">
+      <path fill="currentColor" d="M.463.693l.77 37 28.5-18.5z" />
+    </symbol>
+  </defs>
+</svg>
